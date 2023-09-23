@@ -8,7 +8,7 @@ export default function SelectGenre({ genres, type }) {
   const dispatch = useDispatch();
 
   return (
-    <SELECT_GENRE_CONTAINER className="d-flex"
+    <SELECT_GENRE_CONTAINER className="form-select w-25 d-flex"
       onChange={(e) => {
         dispatch(
           fetchDataByGenre({
